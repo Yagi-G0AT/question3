@@ -1,0 +1,362 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+    height: 100%;
+}
+
+
+
+
+
+
+/* header */
+
+
+.flex {
+    background: #530909;
+}
+
+.header-logo{
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #ffffff;
+    line-height: 70px;
+}
+
+.header-tel {
+    text-align: center;
+    float: right;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.header-tel li{
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 20px;
+}
+
+.header-nav {
+    width: 100%;
+    height: 30px;
+    background: #282828;
+}
+
+.header-nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.inner-nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.inner-nav li {
+    padding: 0 70px;
+    cursor: pointer;
+}
+
+.inner-nav li:not(:last-of-type) {
+    border-right: 1px solid yellow;
+}
+
+
+
+
+
+
+
+
+
+
+#eyecatch {
+    height: 600px;
+    background: url(../question3/93827215.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#eyecatch p {
+    word-wrap: break-word;
+}
+
+.catchcopy {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: bold;
+    color: #c6f180;
+    line-height: 1;
+  }
+
+.catchcopy-sub {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1;
+}
+
+
+/* main */
+
+.mission {
+    height: 1050px;
+    background: #1c0505;
+}
+
+.sub-mission {
+    display: inline-block;
+}
+
+.mission-logo {
+    color: #ffffff;
+    font-size: 40px;
+    position: relative;
+    padding: 20px 5%;
+}
+
+.mission-content_1 img {
+    margin-left: 3%;
+    float: left;
+    position: relative;
+}
+
+.mission-content_2 img {
+    margin-right: 3%;
+    float: right;
+    position: relative;
+    top: -120px;
+}
+
+.mission_title_1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    float: right;
+    margin-top: 6%;
+    position: relative;
+    right: 9%;
+}
+
+.mission_title_2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    padding-right: 15%;
+    margin-top: 15%;
+    position: relative;
+    top: 20%;
+    padding: 20% auto;
+}
+
+.mission_text_1 {
+    color: #ff6969;
+    padding: 60px 0;
+    font-size: 26px;
+    display: inline-block;
+}
+
+.mission_text_2 {
+    color: #ff6969;
+    padding: 60px 40px;
+    font-size: 26px;
+    display: inline-block;
+    position: relative;
+    top: 20%;
+}
+
+.service {
+    height: 600px;
+    background: url(../question3/20190614153315.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.service p {
+    color: #ffffff;
+    font-size: 50px;
+    position: relative;
+    top: 50%;
+    left: 15%;
+    text-align: center;
+}
+
+.news {
+    background: #c5c5c5;
+    height: 400px;
+    padding: 20px 20px;
+}
+
+.news-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.news p {
+    font-size: 25px;
+}
+
+.blog-title, .blog p {
+    position: relative;
+    top: -200px;
+}
+
+.blog-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.blog p {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.top-footer {
+    position: relative;
+    top: -100px;
+}
+
+.footer-text {
+    color: #ffffff;
+    background: #000;
+    height: 100px;
+}
+
+.footer-text h1, .footer-text p {
+    position: relative;
+    top: 45px;
+}
